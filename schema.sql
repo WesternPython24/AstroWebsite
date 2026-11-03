@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS AstroWebsiteDB;
+USE AstroWebsiteDB;
+
+CREATE TABLE IF NOT EXISTS USER(
+	userID INT auto_increment PRIMARY KEY,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    passkey VARCHAR(50) NOT NULL 
+);
+
+CREATE TABLE IF NOT EXISTS POST(
+	postID INT auto_increment PRIMARY KEY,
+    userID INT NOT NULL REFERENCES USER(userID),
+    description VARCHAR (10000),
+    postDateTime DATETIME NOT NULL
+);
