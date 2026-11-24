@@ -1,0 +1,29 @@
+{
+  "name": "astrowebsite",
+  "version": "1.0.0",
+  "description": "AstroWebsite\r An astronomy website for people to learn about and share stellar captures! I plan on making a Astronomy website where community members can connect, chare captures, and ask for advice. The website will be a place for anyone no matter their knowledge in astrophotography.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesternPython24/AstroWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesternPython24/AstroWebsite/issues"
+  },
+  "homepage": "https://github.com/WesternPython24/AstroWebsite#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

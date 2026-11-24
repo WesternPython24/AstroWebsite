@@ -6,11 +6,11 @@ Experienced photographers can share their captures and gear they used, and those
 A user can post and comment if they have an account set up! They can also search for posts with specific telescopes, accessories, and celestial bodies captured (such as saturn, the moon, etc)
 
 This is the entity relationship diagram (ERD). It shows the structure of the project's database. 
-![ERD](ERD.png)
+![ERD](designImages/ERD.png)
 
 
 This is the relations diagram. It demonstrates the exact attributes which relate to another table. This diagram is in 3rd normal form. 
-![relations](relations.png)
+![relations](designImages/relations.png)
 
 
 Database Implementation!
@@ -18,5 +18,5 @@ Database Implementation!
 [click here to see our sql schema!](schema.sql)
 
 Proof of table instantiation...
-![creation](dbImplementation.png)
-![proof of tables](showTables.png)
+![creation](designImages/dbImplementation.png)
+![proof of tables](designImages/showTables.png)
